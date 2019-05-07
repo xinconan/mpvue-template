@@ -1,0 +1,13 @@
+@charset "UTF-8";
+// 主题色
+$base: #FE4772;
+$tx-87: rgba(0,0,0,0.87);
+$tx-54: rgba(0,0,0,0.54);
+$tx-26: rgba(0,0,0,0.26);
+
+@mixin multi-line($a) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $a;
+  overflow: hidden;
+}
